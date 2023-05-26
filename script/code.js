@@ -21,4 +21,15 @@
 for = when you want to iterate over maps and when you want to work with break, continue and return.
 while = when you don't know the number of iterations ahead of time.
 forEach = whenever your array is associative
+do while = when the loop body needs to be executed at least once.
+
+8. Hoisting and Variable scoping
+Hoisting - the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code.
+Variable Scoping -  the current context of code, which determines the accessibility of variables to JavaScript.
 */
+
+function fullName(){
+    return console.log("Siyamthanda Mazokwana")
+}
+
+fullName()
