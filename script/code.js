@@ -22,3 +22,24 @@ for = when you want to iterate over maps and when you want to work with break, c
 while = when you don't know the number of iterations ahead of time.
 forEach = whenever your array is associative
 */
+
+// Question 2 
+ let person = {
+    firstName: 'Siyamthanda',
+    lastName: 'Mazokwana',
+    age: '24',
+ }
+ console.log(person.firstName, person.lastName, person.age)
+
+ let listOfSubjects = ['JS, Bootstrap, Css, Html'];
+console.log(listOfSubjects[0], listOfSubjects[1],listOfSubjects[2],listOfSubjects[3])
+
+ let address = {
+    streetName: 'Dubu Crescent',
+    streetNumber: '10721',
+    suburb: 'Phillipi',
+    city: 'Cape Town',
+    country: 'South Africa'
+ }
+
+ console.log(address)
