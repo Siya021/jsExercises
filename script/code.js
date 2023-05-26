@@ -28,8 +28,25 @@ Hoisting - the process whereby the interpreter appears to move the declaration o
 Variable Scoping -  the current context of code, which determines the accessibility of variables to JavaScript.
 */
 
-function fullName(){
-    return console.log("Siyamthanda Mazokwana")
-}
+*/
 
-fullName()
+// Question 2 
+ let person = {
+    firstName: 'Siyamthanda',
+    lastName: 'Mazokwana',
+    age: '24',
+ }
+ console.log(person.firstName, person.lastName, person.age)
+
+ let listOfSubjects = ['JS, Bootstrap, Css, Html'];
+console.log(listOfSubjects[0], listOfSubjects[1],listOfSubjects[2],listOfSubjects[3])
+
+ let address = {
+    streetName: 'Dubu Crescent',
+    streetNumber: '10721',
+    suburb: 'Phillipi',
+    city: 'Cape Town',
+    country: 'South Africa'
+ }
+
+ console.log(address)
